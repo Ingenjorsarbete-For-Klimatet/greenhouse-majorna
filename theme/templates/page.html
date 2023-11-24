@@ -1,0 +1,39 @@
+{% extends "base/base.html" %}
+{% block content %}
+{% if menuitems %}
+{% for title, link in menuitems.items() %}
+{% set pageName = title %}
+<div id="page_{{title}}" class="page" {% if title !=page_name %}style="display: none" {% endif %}>
+    <div id="content_{{title}}" class="content {% if title == page_name %}ajaxHook{% endif %}">
+        <div id="ajax_content_{{ pages[title + " .md"].meta.title.lower() }}" class="ajax_content">
+            <div class="entry-content-page hyphenate">
+                {{ pages[title+".md"].content }}
+
+                {% if title == "projekt" %}
+                <ol id="post-list" class="ordered-list" data-list-length="{{ articles|count }}">
+                    {% for article in articles %}
+                    {% if article.category == "Projekt" %}
+                    {% include 'base/archive_kernel.html' %}
+                    {% endif %}
+                    {% endfor %}
+                </ol>
+                {% endif %}
+
+                {% if title == "om" %}
+                <h2>Medlemmar</h2>
+                <ol id="post-list" class="ordered-list" data-list-length="{{ articles|count }}">
+                    {% for article in articles %}
+                    {% if article.category == "Om" %}
+                    {% include 'base/archive_kernel.html' %}
+                    {% endif %}
+                    {% endfor %}
+                </ol>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% endblock %}
