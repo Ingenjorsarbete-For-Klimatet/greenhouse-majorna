@@ -9,7 +9,7 @@
     "build_path": "output",
     "home": "greenhouse",
     "menuitems": {
-        "greenhouse": "",
+        "greenhouse": "hem",
         "kontakt": "kontakt",
         "om": "om"
     },
