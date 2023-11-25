@@ -11,4 +11,4 @@ Göteborgs stad har röstat för en ökad lokal matproduktion, med ambitionen at
 tillgängliga för stadens medborgare.
 
 Vi börjar i Majorna!
-[Läs mer](om.html)
+[Läs mer](om/)
