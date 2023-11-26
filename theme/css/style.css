@@ -13,7 +13,7 @@ html, body {
 /* Menu */
 #nav {
     font-family: "Rubik", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 1em;
     margin: 40px auto;
     padding: 0 40px;
@@ -39,7 +39,7 @@ html, body {
 
 .nav a,
 .nav a:visited {
-    color: #000;
+    color: #05850e;
     flex: 0 0 auto;
     display: flex;
     align-items: center;
@@ -49,13 +49,13 @@ html, body {
 }
 
 .nav a:hover {
-    color: #f0f0f0;
-    background: #000;
+    color: #05d315;
+    background: #05850e;
 }
 
 .nav a.activeMenu {
-    color: #f0f0f0;
-    background: #000;
+    color: 05d315;
+    background: #05850e;
 }
 /* End Menu */
 
