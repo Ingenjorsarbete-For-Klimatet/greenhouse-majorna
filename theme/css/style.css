@@ -12,8 +12,8 @@ html, body {
 
 /* Menu */
 #nav {
-    font-family: "Rubik", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
-    text-transform: lowercase;
+    font-family: "Hobo Regular", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
+    text-transform: none;
     font-size: 1em;
     margin: 40px auto;
     padding: 0 40px;
@@ -39,23 +39,23 @@ html, body {
 
 .nav a,
 .nav a:visited {
-    color: #05850e;
+    color: #e0e3d8;
     flex: 0 0 auto;
     display: flex;
     align-items: center;
     height: 50px;
     padding: 0 20px;
-    background: rgba(240,240,240,0.75);
+    background: #cccccc;
 }
 
 .nav a:hover {
-    color: #05d315;
-    background: #05850e;
+    color: #ffd264;
+    background: #cccccc;
 }
 
 .nav a.activeMenu {
-    color: 05d315;
-    background: #05850e;
+    color: #e0e3d8;
+    background: #cccccc;
 }
 /* End Menu */
 
@@ -65,8 +65,8 @@ a {
 
 /* Footer */
 #footer {
-    font-family: "Rubik", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
-    text-transform: uppercase;
+    font-family: "Arial", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
+    text-transform: none;
     font-size: 1em;
     margin: 40px auto;
     padding: 0 40px;
@@ -159,7 +159,7 @@ p a, p a:visited {
 
 /* highlight.js */
 .hljs {
-    background: rgba(245,242,240,0.8) !important;
+    background: #e0e3d8 !important;
     font-family: "Inconsolata", monospace !important;
 }
 
@@ -169,7 +169,7 @@ code[class*="language-"] {
 }
 
 .hljs-copy-button {
-    background-color: #888 !important;
+    background-color: #e0e3d8 !important;
 }
 
 /* End highlight.js */
