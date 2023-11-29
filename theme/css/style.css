@@ -12,12 +12,12 @@ html, body {
 
 /* Menu */
 #nav {
-    font-family: "Hobo Regular", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
-    text-transform: none;
-    font-size: 1em;
-    margin: 40px auto;
-    padding: 0 40px;
-    height: 50px;
+    font-family: "Hobo Regular",;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 60px auto;
+    padding: 0 50px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     max-width: 960px;
@@ -65,7 +65,7 @@ a {
 
 /* Footer */
 #footer {
-    font-family: "Arial", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
+    font-family: "Hobo Regular";
     text-transform: none;
     font-size: 1em;
     margin: 40px auto;
@@ -100,7 +100,7 @@ a {
 #main {
     margin: 0 40px;
     font-size: 1.2em;
-    font-family: "Rubik", "Helvetica-Neue", Helvetica, sans-serif;
+    font-family: "Arial";
 }
 
 #main .page {
@@ -160,11 +160,11 @@ p a, p a:visited {
 /* highlight.js */
 .hljs {
     background: #e0e3d8 !important;
-    font-family: "Inconsolata", monospace !important;
+    font-family: "Hobo Regular", monospace !important;
 }
 
 code[class*="language-"] {
-    font-family: "Inconsolata", monospace !important;
+    font-family: "Hobo Regular", monospace !important;
     white-space: pre-wrap;
 }
 
