@@ -102,6 +102,9 @@ a {
     font-size: 1.2em;
     font-family: "Arial";
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Hobo Regular"
+  }
 
 #main .page {
     margin: 0 auto;
@@ -160,11 +163,11 @@ p a, p a:visited {
 /* highlight.js */
 .hljs {
     background: #e0e3d8 !important;
-    font-family: "Hobo Regular", monospace !important;
+    font-family: "Courier", monospace !important;
 }
 
 code[class*="language-"] {
-    font-family: "Hobo Regular", monospace !important;
+    font-family: "Courier", monospace !important;
     white-space: pre-wrap;
 }
 
