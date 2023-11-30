@@ -6,6 +6,8 @@ status: published
 
 # Mer information
 
+<img src="data/poster1.jpg" width=100%>
+
 # Stadsdelsväxthus Majorna
 
 ## Vi börjar i Majorna
