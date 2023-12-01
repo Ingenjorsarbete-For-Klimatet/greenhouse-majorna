@@ -5,6 +5,15 @@ Site: ingenjorsarbeteforklimatet.se/greenhouse-majorna
 Version: 0.1
 */
 
+@font-face {
+    font-family: 'Hobo';
+    src: url('Hobo.woff') format('woff'),
+         url('Hobo.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -12,7 +21,7 @@ html, body {
 
 /* Menu */
 #nav {
-    font-family: "Hobo Regular",;
+    font-family: "Hobo";
     text-transform: uppercase;
     font-size: 2em;
     margin: 60px auto;
@@ -65,7 +74,7 @@ a {
 
 /* Footer */
 #footer {
-    font-family: "Hobo Regular";
+    font-family: "Hobo";
     text-transform: none;
     font-size: 1em;
     margin: 40px auto;
@@ -103,7 +112,7 @@ a {
     font-family: "Arial";
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Hobo Regular"
+    font-family: "Hobo"
   }
 
 #main .page {
