@@ -6,7 +6,7 @@ status: published
 
 # Mer information
 
-<img src="data/poster1.jpg" width=100%>
+<img src="data/poster1.jpeg" width=100%>
 
 # Stadsdelsväxthus Majorna
 
