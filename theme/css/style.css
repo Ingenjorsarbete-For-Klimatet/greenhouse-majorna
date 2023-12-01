@@ -1,9 +1,18 @@
 /* Style
-Name: ifk
-Author: Mladen Gibanica
-Site: ingenjorsarbeteforklimatet.se
+Name: greenhouse-majorna - Preliminär hemsida för medborgarinitiativ kring stadsdelsväxthus i Majorna
+Author: Ingenjörsarbete För Klimatet (- )Anders Nord, Peter Mikaelsson and Mladen Gibanica)
+Site: ingenjorsarbeteforklimatet.se/greenhouse-majorna
 Version: 0.1
 */
+
+@font-face {
+    font-family: 'Hobo';
+    src: url('Hobo.woff') format('woff'),
+         url('Hobo.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
 
 html, body {
     margin: 0;
@@ -12,12 +21,12 @@ html, body {
 
 /* Menu */
 #nav {
-    font-family: "Rubik", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
-    text-transform: lowercase;
-    font-size: 1em;
-    margin: 40px auto;
-    padding: 0 40px;
-    height: 50px;
+    font-family: "Hobo";
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 60px auto;
+    padding: 0 50px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     max-width: 960px;
@@ -39,23 +48,23 @@ html, body {
 
 .nav a,
 .nav a:visited {
-    color: #05850e;
+    color: #e0e3d8;
     flex: 0 0 auto;
     display: flex;
     align-items: center;
     height: 50px;
     padding: 0 20px;
-    background: rgba(240,240,240,0.75);
+    background: #cccccc;
 }
 
 .nav a:hover {
-    color: #05d315;
-    background: #05850e;
+    color: #ffd264;
+    background: #cccccc;
 }
 
 .nav a.activeMenu {
-    color: 05d315;
-    background: #05850e;
+    color: #e0e3d8;
+    background: #cccccc;
 }
 /* End Menu */
 
@@ -65,8 +74,8 @@ a {
 
 /* Footer */
 #footer {
-    font-family: "Rubik", "Gill Sans", "Helvetica-Neue", Helvetica, sans-serif;
-    text-transform: uppercase;
+    font-family: "Hobo";
+    text-transform: none;
     font-size: 1em;
     margin: 40px auto;
     padding: 0 40px;
@@ -100,8 +109,11 @@ a {
 #main {
     margin: 0 40px;
     font-size: 1.2em;
-    font-family: "Rubik", "Helvetica-Neue", Helvetica, sans-serif;
+    font-family: "Arial";
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Hobo"
+  }
 
 #main .page {
     margin: 0 auto;
@@ -159,17 +171,17 @@ p a, p a:visited {
 
 /* highlight.js */
 .hljs {
-    background: rgba(245,242,240,0.8) !important;
-    font-family: "Inconsolata", monospace !important;
+    background: #e0e3d8 !important;
+    font-family: "Courier", monospace !important;
 }
 
 code[class*="language-"] {
-    font-family: "Inconsolata", monospace !important;
+    font-family: "Courier", monospace !important;
     white-space: pre-wrap;
 }
 
 .hljs-copy-button {
-    background-color: #888 !important;
+    background-color: #e0e3d8 !important;
 }
 
 /* End highlight.js */
