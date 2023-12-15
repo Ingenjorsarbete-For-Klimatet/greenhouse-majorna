@@ -40,7 +40,7 @@ jobs:
         run: |
           sshpass -p "${{ secrets.PASSWORD }}" rsync -r -e "ssh -o StrictHostKeyChecking=no -p${{ secrets.PORT }}" ${{ secrets.USER }}@${{ secrets.HOST }}:greenhouse-majorna/content/data/ content/data/
       - name: Build site
-        run: python -m mysgen.mysgen && cp -r theme/css/ output/css/ && mkdir output/data && mkdir output/om/data && cp content/data/poster1.jpeg output/om/data/poster1.jpeg && cp content/data/poster2.jpeg output/data/poster2.jpeg && mv output _site
+        run: python -m mysgen.mysgen && cp -r content/admin/ output/admin/ && cp -r theme/css/ output/css/ && mkdir output/data && mkdir output/om/data && cp content/data/poster1.jpeg output/om/data/poster1.jpeg && cp content/data/poster2.jpeg output/data/poster2.jpeg && mv output _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
