@@ -6,6 +6,7 @@ backend:
 
 locale: 'sv'
 publish_mode: editorial_workflow
+media_folder: 'content/data'
 
 collections:
   - name: 'post'
