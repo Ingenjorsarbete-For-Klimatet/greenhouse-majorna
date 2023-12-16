@@ -14,9 +14,6 @@ collections:
     folder: 'content/posts'
     create: true 
     slug: '{{slug}}'
-    extension: md
-    format: yaml-frontmatter
-    frontmatter_delimiter: ''
     fields:
       - label: 'Title'
         name: 'title'
@@ -56,9 +53,6 @@ collections:
     folder: 'content/pages'
     create: true 
     slug: '{{slug}}'
-    extension: md
-    format: yaml-frontmatter
-    frontmatter_delimiter: ''
     fields:
       - label: 'Title'
         name: 'title'
