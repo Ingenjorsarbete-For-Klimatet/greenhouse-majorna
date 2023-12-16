@@ -8,7 +8,7 @@ status: published
 
 <img src="data/poster2.jpeg" width=100%>
 
-# Stadsdelsväxthus Majorna
+## Stadsdelsväxthus Majorna
 
 Göteborgs stad har röstat för en ökad lokal matproduktion, med ambitionen att nå
 40% 2030. Ett sätt som staden identifierat för att nå dit är genom att bygga växthus

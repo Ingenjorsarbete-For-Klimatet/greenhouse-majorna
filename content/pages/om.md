@@ -6,15 +6,15 @@ type: page
 status: published
 ---
 
-# Mer information
+## Mer information
 
 <img src="data/poster1.jpeg" width=100%>
 
-# Stadsdelsväxthus Majorna
+## Stadsdelsväxthus Majorna
 
-## Vi börjar i Majorna
+### Vi börjar i Majorna
 
-### Stort odlingsintresse
+#### Stort odlingsintresse
 
 I Majorna oldas det redan, på innegårdar, i parker och kolonialträdgårdar. Här
 finns även öppna ytor stora nog för ett stadsdelsväxthus.
@@ -22,7 +22,7 @@ finns även öppna ytor stora nog för ett stadsdelsväxthus.
 Familjebostäder uppmuntrar till odling, och har hittills försett sina hyresgäster
 med minst 2000 odlingskragar, uppbackade av Hyresgästföreningen Västra Göteborg.
 
-### Lokal kompostering
+#### Lokal kompostering
 
 I Majorna finns ett unikt system med gårdskomposter, där matavfall från circa 1300
 hushåll tas tillvara. De första komposterna placerades ut på Familjebostäders gårdar
@@ -32,7 +32,7 @@ Den näringsrika kompostjorden används sedan till odlingarna - en liten grad av
 självförsörjning, som det var tänkt när landshövdingehusen med sina innergårdar
 biggdes för hundra år sedan.
 
-### Ekologisk stadsdel Majorna
+#### Ekologisk stadsdel Majorna
 
 Hyresgästföreningen Västra tog 2007 initiativ till projektet *Ekologisk stadsdel
 Majorna*. Visionen var att stadsdelen Majorna skulle bidra till att göra Göteborg
@@ -43,11 +43,11 @@ på lokal handel/mötesplatser, cykling/trygg trafikmiljö, stadsnära odling sa
 Projektet avslutades 2019 och har bidragit till Majornas identitet som en
 grön och miljömedveten stadsdel.
 
-## Vad tänker Göteborg Stad?
+### Vad tänker Göteborg Stad?
 
-### Klimat- och miljömålen är viktigare än någonsin. Hur ska vi nå dem?
+#### Klimat- och miljömålen är viktigare än någonsin. Hur ska vi nå dem?
 
-### En nödvändig omställning
+#### En nödvändig omställning
 
 Göteborg ska ställa om till en hållbar stad 2030. Det innebär att vi kommer vara
 en av väldens mest progressiva städer när det kommer till att förebygga och åtgärda
@@ -63,7 +63,7 @@ blir en nyckel i arbetet att nå klimatmålen.
 Läs mer om stadens miljömål i <a href="https://goteborg.se/wps/wcm/connect/4578bcdd-0a21-4d90-98c5-8ec4e68b366b/G%C3%B6teborgs+Stads+milj%C3%B6-+och+klimatprogram+2021-2030.pdf?MOD=AJPERES"
 target="_blank">Göteborgs stads miljö- och klimatplan. (2021-2030)</a>
 
-### En självförsörjande stad
+#### En självförsörjande stad
 
 Miljöförvaltningen tog fram rapporten *Ett hållbart livsmedelssystem ur ett cirkulärekonomiskt
 perspektiv. Rekommendationer för fortsatt arbete i Göteborgs Stad.* Den visar
@@ -85,7 +85,7 @@ Läs mer i rapporten <a href="https://goteborg.se/wps/wcm/connect/b628fcd8-b61f-
 target="_blank">Ett hållbart livsmedelssystem ur ett cirkulärekonomiskt
 perspektiv. (2022)</a>
 
-### Ett växthus för alla
+#### Ett växthus för alla
 
 Det finns olika idéer om vad ett stadsdelsväxthus är. I januari 2023 presenterades
 sex olika växthuskoncept i en rapport, beställd bland annat av Göteborgs Stad.
@@ -99,13 +99,13 @@ Läs mer i rapporten <a href="https://stadsnaraodling.goteborg.se/wp-content/upl
 target="_blank">6 växthuskoncept för ett hållbart  och cirkulärt
 livsmedelssystem. (2023)</a>
 
-## Hur tänker du?
+### Hur tänker du?
 
-### Vi vill ha med odlarföreningar, skolor, stadsdelsbonden, dig och dina grannar
+#### Vi vill ha med odlarföreningar, skolor, stadsdelsbonden, dig och dina grannar
 
-### Dela dina tankar och idéer med oss
+#### Dela dina tankar och idéer med oss
 
-### Skriv ner dina tankar
+#### Skriv ner dina tankar
 
 Ett står klart. Vi måste visa att vi är många som vill att ett stadsdelsväxthus
 ska finnas i Majorna. Om du har tankar och idéer om vad ett stadsdelsväxthus borde
@@ -115,7 +115,7 @@ Vill du lägga mer tid på att presentera dina tankar så kan du maila dem till:
 
 <a href= "mailto:leif.strandh@kompopstbutiken.com" target=_blank>leif.strandh@kompostbutiken.com</a>
 
-### Ett Göteborgsförslag?
+#### Ett Göteborgsförslag?
 
 Idén om ett stadsdelsväxthus riskerar att stanna på ritbordet om det inte finansieras.
 Det måste till politiska beslut som slår fast att det är värdefullt att satsa
@@ -126,7 +126,7 @@ röstar på förslaget inom 90 dagar från att det presenteras.
 Vill du vara med och rösta? Skriv upp dig på vår kontaktlista så skickar vi ut information
 till dig när förslaget läggs upp.
 
-### Vill du börja odla nu?
+#### Vill du börja odla nu?
 
 Det är den lokala hyresgästföreningen som håller i odlingar på innergårdarna, kontakta
 dem eller din lokala miljövård. Bor du i en bostadsrätt är det styrelsen du ska prata

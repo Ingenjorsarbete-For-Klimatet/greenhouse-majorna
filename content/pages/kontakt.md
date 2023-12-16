@@ -6,6 +6,6 @@ type: page
 status: published
 ---
 
-# Kontakt
+## Kontakt
 
 Denna sida administreras och drivs av  [leif.strandh@kompostbutiken.com](mailto:leif.strandh@kompostbutiken.com)
