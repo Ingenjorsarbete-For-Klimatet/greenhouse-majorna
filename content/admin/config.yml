@@ -36,10 +36,6 @@ collections:
         required: true
       - label: 'Status'
         name: 'status'
-        widget: 'string'
-        required: true
-      - label: 'Status'
-        name: 'status'
         widget: 'list'
         required: true
         fields:
