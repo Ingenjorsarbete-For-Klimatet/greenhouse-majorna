@@ -54,6 +54,7 @@ collections:
     folder: 'content/pages'
     create: true 
     slug: '{{slug}}'
+    frontmatter_delimiter: ''
     fields:
       - label: 'Title'
         name: 'title'
