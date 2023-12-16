@@ -4,6 +4,7 @@ backend:
   branch: main
   base_url: http://auth.ingenjorsarbeteforklimatet.se
 
+locale: 'sv'
 publish_mode: editorial_workflow
 media_folder: 'content/images/uploads'
 
