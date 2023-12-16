@@ -36,13 +36,10 @@ collections:
         required: true
       - label: 'Status'
         name: 'status'
-        widget: 'list'
+        widget: 'select'
         required: true
-        fields:
-          - "published"
-          - "unpublished"
-        default:
-          - "published"
+        options: ["published", "unpublished"]
+        default: ["published"]
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
