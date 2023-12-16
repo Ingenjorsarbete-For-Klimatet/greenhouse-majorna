@@ -14,9 +14,40 @@ collections:
     create: true 
     slug: '{{slug}}'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Category', name: 'category', widget: 'string' }
-      - { label: 'Tags', name: 'tags', widget: 'string' }
-      - { label: 'status', name: 'status', widget: 'string' }
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+        required: true
+      - label: 'Publish Date'
+        name: 'date'
+        widget: 'datetime'
+        required: true
+      - label: 'Author'
+        name: 'author'
+        widget: 'string'
+        required: true
+      - label: 'Category'
+        name: 'category'
+        widget: 'string'
+        required: true
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'string'
+        required: true
+      - label: 'Status'
+        name: 'status'
+        widget: 'string'
+        required: true
+      - label: 'Status'
+        name: 'status'
+        widget: 'list'
+        required: true
+        fields:
+          - { label: "Published", name: "published", widget: "string" }
+          - { label: "Unpublished", name: "unpublished", widget: "string" }
+        default:
+          - { label: "Published", name: "published", widget: "string" }
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        required: true
