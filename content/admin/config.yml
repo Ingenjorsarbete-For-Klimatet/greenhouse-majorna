@@ -20,3 +20,4 @@ collections:
       - { label: 'Category', name: 'category', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'string' }
       - { label: 'status', name: 'status', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
