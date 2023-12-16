@@ -10,7 +10,7 @@ media_folder: 'content/images/uploads'
 
 collections:
   - name: 'posts'
-    label: 'Post'
+    label: 'Poster'
     folder: 'content/posts'
     create: true 
     slug: '{{slug}}'
@@ -38,6 +38,43 @@ collections:
         name: 'tags'
         widget: 'string'
         required: true
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        required: true
+        options: ['published', 'unpublished']
+        default: ['published']
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        required: true
+  - name: 'pages'
+    label: 'Sidor'
+    folder: 'content/pages'
+    create: true 
+    slug: '{{slug}}'
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+        required: true
+      - label: 'Publish Date'
+        name: 'date'
+        widget: 'datetime'
+        date_format: 'YYYY-MM-DD'
+        time_format: false
+        format: 'YYYY-MM-DD'
+        required: true
+      - label: 'Author'
+        name: 'author'
+        widget: 'string'
+        required: true
+      - label: 'Type'
+        name: 'type'
+        widget: 'select'
+        required: true
+        options: ['page']
+        default: ['page']
       - label: 'Status'
         name: 'status'
         widget: 'select'
