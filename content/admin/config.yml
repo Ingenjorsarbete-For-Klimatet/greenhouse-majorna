@@ -15,7 +15,7 @@ collections:
     create: true 
     slug: '{{slug}}'
     extension: md
-    format: frontmatter
+    format: yaml-frontmatter
     frontmatter_delimiter: ''
     fields:
       - label: 'Title'
@@ -57,7 +57,7 @@ collections:
     create: true 
     slug: '{{slug}}'
     extension: md
-    format: frontmatter
+    format: yaml-frontmatter
     frontmatter_delimiter: ''
     fields:
       - label: 'Title'
