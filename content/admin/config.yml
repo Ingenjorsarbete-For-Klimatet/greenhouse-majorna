@@ -14,7 +14,8 @@ collections:
     folder: 'content/posts'
     create: true 
     slug: '{{slug}}'
-    format: 'frontmatter'
+    extension: md
+    format: frontmatter
     frontmatter_delimiter: ''
     fields:
       - label: 'Title'
@@ -55,7 +56,8 @@ collections:
     folder: 'content/pages'
     create: true 
     slug: '{{slug}}'
-    format: 'frontmatter'
+    extension: md
+    format: frontmatter
     frontmatter_delimiter: ''
     fields:
       - label: 'Title'
