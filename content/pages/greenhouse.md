@@ -1,8 +1,10 @@
+---
 title: Växthus i Majorna
 date: 2023-11-18
 author: Anders Nord
 type: index
 status: published
+---
 
 <img src="data/poster2.jpeg" width=100%>
 
