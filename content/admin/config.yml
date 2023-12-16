@@ -50,6 +50,7 @@ collections:
         name: 'data'
         widget: 'select'
         options: ["true", "false"]
+        default: 'false'
         required: true
       - label: 'Body'
         name: 'body'
@@ -94,6 +95,7 @@ collections:
         name: 'data'
         widget: 'select'
         options: ["true", "false"]
+        default: 'false'
         required: true
       - label: 'Body'
         name: 'body'
