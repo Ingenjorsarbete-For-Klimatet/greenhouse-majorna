@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Ingenjorsarbete-For-Klimatet/greenhouse-majorna
   branch: main
-  base_url: http://37.27.13.47
+  base_url: http://auth.ingenjorsarbeteforklimatet.se
 
 media_folder: 'content/images/uploads'
 
