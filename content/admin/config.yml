@@ -6,7 +6,6 @@ backend:
 
 locale: 'sv'
 publish_mode: editorial_workflow
-media_folder: 'content/images/uploads'
 
 collections:
   - name: 'post'
@@ -14,6 +13,8 @@ collections:
     folder: 'content/posts'
     create: true 
     slug: '{{slug}}'
+    media_folder: 'content/data/{{filename}}'
+    public_folder: 'data/{{filename}}'
     fields:
       - label: 'Title'
         name: 'title'
@@ -53,6 +54,8 @@ collections:
     folder: 'content/pages'
     create: true 
     slug: '{{slug}}'
+    media_folder: 'content/data/{{filename}}'
+    public_folder: 'data/{{filename}}'
     fields:
       - label: 'Title'
         name: 'title'
