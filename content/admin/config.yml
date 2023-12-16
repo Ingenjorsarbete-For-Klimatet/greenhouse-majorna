@@ -19,5 +19,5 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string', required: true }
       - { label: 'Category', name: 'category', widget: 'string', required: true }
       - { label: 'Tags', name: 'tags', widget: 'string', required: true }
-      - { label: 'status', name: 'status', widget: 'string', required: true }
+      - { label: 'Status', name: 'status', widget: 'string', required: true }
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }
