@@ -46,6 +46,11 @@ collections:
         required: true
         options: ['published', 'unpublished']
         default: ['published']
+      - label: 'Data'
+        name: 'data'
+        widget: 'select'
+        options: ["true", "false"]
+        required: true
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
@@ -85,6 +90,11 @@ collections:
         required: true
         options: ['published', 'unpublished']
         default: ['published']
+      - label: 'Data'
+        name: 'data'
+        widget: 'select'
+        options: ["true", "false"]
+        required: true
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
