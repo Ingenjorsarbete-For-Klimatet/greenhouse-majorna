@@ -9,8 +9,8 @@ publish_mode: editorial_workflow
 media_folder: 'content/images/uploads'
 
 collections:
-  - name: 'posts'
-    label: 'Poster'
+  - name: 'post'
+    label: 'Post'
     folder: 'content/posts'
     create: true 
     slug: '{{slug}}'
@@ -48,8 +48,8 @@ collections:
         name: 'body'
         widget: 'markdown'
         required: true
-  - name: 'pages'
-    label: 'Sidor'
+  - name: 'page'
+    label: 'Sida'
     folder: 'content/pages'
     create: true 
     slug: '{{slug}}'
