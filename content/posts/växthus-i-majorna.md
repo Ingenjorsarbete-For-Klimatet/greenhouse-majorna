@@ -1,5 +1,5 @@
 ---
-title: Växthus i Majorna
+title: VaxthusiMajorna
 date: 2023-12-18
 author: Anders Nord
 category: test
