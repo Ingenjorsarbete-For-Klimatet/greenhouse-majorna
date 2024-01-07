@@ -30,15 +30,26 @@
 <body>
 	{% if menuitems %}
 	<nav id="nav" class="nav">
-		<ul>
-			{% for title, link in (menuitems.items() | list)[:4] %}
-			<li id="nav-{{ title }}" title="{{ title }}">
-				<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
-					{{title}}
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
+		<div id="nav-inner">
+			<ul id="nav-logo">
+				{% for title, link in (menuitems.items() | list)[:1] %}
+				<li id="nav-{{ title }}" title="{{ title }}">
+					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
+						{{title}}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+			<ul id="nav-menu">
+				{% for title, link in (menuitems.items() | list)[1:4] %}
+				<li id="nav-{{ title }}" title="{{ title }}">
+					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
+						{{title}}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</nav>
 	{% endif %}
 
