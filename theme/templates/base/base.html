@@ -28,9 +28,9 @@
 </head>
 
 <body>
+	{% if menuitems %}
 	<nav id="nav" class="nav">
 		<ul>
-			{% if menuitems %}
 			{% for title, link in (menuitems.items() | list)[:4] %}
 			<li id="nav-{{ title }}" title="{{ title }}">
 				<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
@@ -38,9 +38,9 @@
 				</a>
 			</li>
 			{% endfor %}
-			{% endif %}
 		</ul>
 	</nav>
+	{% endif %}
 
 	<main id="main" class="main">
 		{% block content %}
