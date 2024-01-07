@@ -7,11 +7,12 @@
     "theme_path": "theme",
     "src_path": "content",
     "build_path": "output",
-    "home": "greenhouse",
+    "home": "hem",
     "menuitems": {
-        "greenhouse": "hem",
-        "kontakt": "kontakt",
-        "om": "om"
+        "Stadsdelsväxthus Majorna": "hem",
+        "Bakgrund": "bakgrund",
+        "Vad händer?": "handelser",
+        "Kontakt": "kontakt"
     },
     "post_url": "{{post_url}}",
     "build_date_template": "{{update_date}}",
