@@ -53,13 +53,13 @@ html, body {
 }
 
 #nav #nav-menu li a {
-    padding: 0 0 0 10px;
+    padding: 0 10px;
 }
 
 #nav a,
 #nav a:visited {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     padding: 0;
 }
 
