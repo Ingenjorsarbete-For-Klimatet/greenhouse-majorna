@@ -15,4 +15,6 @@ tillgängliga för stadens medborgare.
 
 Skriv upp dig på kontaktlistan för att hålla dig uppdaterad!
 
-<p class="center"><a class="button" href="/greenhouse-majorna/kontakt">Skriv upp mig!</a></p>
+<p class="center">
+    <a class="button" href="/greenhouse-majorna/kontakt">Skriv upp mig!</a>
+</p>
