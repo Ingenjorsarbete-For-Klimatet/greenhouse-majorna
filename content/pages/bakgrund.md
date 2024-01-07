@@ -1,5 +1,5 @@
 ---
-title: Mer information
+title: Bakgrund
 date: 2023-02-05
 author: Anders Nord
 type: page
