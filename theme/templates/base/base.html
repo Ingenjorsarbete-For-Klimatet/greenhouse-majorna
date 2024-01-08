@@ -18,36 +18,40 @@
 	<!-- End Favicon -->
 	<!-- Font loading -->
 	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 	</style>
 	<!-- End font loading -->
 	<!-- Load CSS -->
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css" />
-	<link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css" />
-	<link rel="stylesheet" type="text/css" href="/greenhouse-majorna/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
 	<!-- End Load CSS -->
 	{% endblock head %}
 </head>
 
 <body>
+	{% if menuitems %}
 	<nav id="nav" class="nav">
-		<ul>
-			{% if menuitems %}
-			{% for title, link in menuitems.items() %}
-			<li id="nav_{{ title }}" title="{{ title }}">
-				<a class="nav_{{ title }} nav_link {% if ( title== "greenhouse" and page_name=="greenhouse" ) or (
-					title=="kontakt" and page_name=="kontakt" ) or ( title=="om" and page_name=="om" ) %}activeMenu{%
-					endif %}" title="{{ title }}" {% if ( title==home ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {%
-					endif %}>
-					{{title}}
-				</a>
-			</li>
-			{% endfor %}
-			{% endif %}
-		</ul>
+		<div id="nav-inner">
+			<ul id="nav-logo">
+				{% for title, link in (menuitems.items() | list)[:1] %}
+				<li id="nav-{{ title }}" title="{{ title }}">
+					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
+						{{title}}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+			<ul id="nav-menu">
+				{% for title, link in (menuitems.items() | list)[1:4] %}
+				<li id="nav-{{ title }}" title="{{ title }}">
+					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
+						{{title}}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</nav>
+	{% endif %}
 
 	<main id="main" class="main">
 		{% block content %}
@@ -55,14 +59,6 @@
 	</main>
 
 	<footer id="footer">
-		<ul class="icons">
-			<li><a href="https://www.facebook.com/ingenjorsarbeteforklimatet/" target="_blank"><span
-						data-feather="facebook">Facebook</span></a></li>
-			<li><a href="https://www.instagram.com/ingenjorsarbeteforklimatet/" target="_blank"><span
-						data-feather="instagram">Instagram</span></a></li>
-			<li><a href="https://github.com/Ingenjorsarbete-For-Klimatet/" target="_blank"><span
-						data-feather="github">GitHub</span></a></li>
-		</ul>
 		<ul>
 			<li>
 				<p>Uppdaterad {{build_date.strftime("%Y-%m-%d")}}</p>
@@ -73,20 +69,5 @@
 		</ul>
 	</footer>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/python.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/python-repl.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/bash.min.js"></script>
-<script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
-<script src="https://unpkg.com/feather-icons"></script>
-<script>
-	feather.replace();
-	hljs.highlightAll();
-	hljs.addPlugin(
-		new CopyButtonPlugin({
-			callback: (text, el) => console.log("Copied to clipboard", text),
-		})
-	);
-</script>
 
 </html>
