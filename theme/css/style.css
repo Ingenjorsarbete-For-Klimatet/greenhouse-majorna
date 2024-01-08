@@ -46,6 +46,7 @@ html, body {
 }
 
 #nav #nav-logo {
+    max-width: 200px;
     font-size: 1.75em;
     font-family: "Hobo";
     text-align: left;
@@ -56,7 +57,7 @@ html, body {
 }
 
 #nav #nav-menu li a {
-    padding: 0 10px;
+    padding: 10px;
 }
 
 #nav a,
@@ -68,8 +69,8 @@ html, body {
 
 #nav #nav-logo a,
 #nav #nav-logo a:visited {
-    display: inline;
-    padding: 0;
+    display: block;
+    padding: 10px;
 }
 
 #nav a:hover {
@@ -160,22 +161,25 @@ h6 {
 
 #page-hem {
     display: flex;
+    gap: 0 10px;
+
 }
 /* End Content */
 
 ol {
+    margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
 }
 
-article .entry-title {
-    display: inline-block;
+article {
+    padding: 20px 0 0;
 }
 
-.main .hentry {
-    padding: 10px 0;
+article .entry-title {
+    display: inline;
 }
 
 a {
@@ -215,7 +219,7 @@ a.button {
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
     #nav #nav-logo {
-        font-size: 1.25em;
+        font-size: 1.1em;
     }
 
     #nav #nav-menu {
@@ -231,7 +235,7 @@ a.button {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
     #nav #nav-logo {
-        font-size: 1.4em;
+        font-size: 1.25em;
     }
 
     #nav #nav-menu {
