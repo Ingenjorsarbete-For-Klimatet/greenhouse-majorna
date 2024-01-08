@@ -1,13 +1,7 @@
 {% extends "base/base.html" %}
 {% block content %}
-<div id="page_{{page_name}}" class="page">
-    <div id="content_{{page_name}}" class="content">
-        <div id="ajax_content_{{ pages[page_name +".md"].meta.title.lower() }}" class="ajax_content">
-            <div class="entry-content-page hyphenate">
-                {{ pages[page_name+".md"].content }}
-            </div>
-        </div>
-    </div>
+<div id="page-{{page_name}}" class="page">
+    {{ pages[page_name+".md"].content }}
 </div>
 
 
