@@ -22,7 +22,7 @@
 	</style>
 	<!-- End font loading -->
 	<!-- Load CSS -->
-	<link rel="stylesheet" type="text/css" href="/greenhouse-majorna/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
 	<!-- End Load CSS -->
 	{% endblock head %}
 </head>
@@ -34,7 +34,7 @@
 			<ul id="nav-logo">
 				{% for title, link in (menuitems.items() | list)[:1] %}
 				<li id="nav-{{ title }}" title="{{ title }}">
-					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}">
+					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
 						{{title}}
 					</a>
 				</li>
@@ -43,7 +43,7 @@
 			<ul id="nav-menu">
 				{% for title, link in (menuitems.items() | list)[1:4] %}
 				<li id="nav-{{ title }}" title="{{ title }}">
-					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}">
+					<a class="nav-{{ title }} nav_link {% if title=="hem" %}activeMenu{% endif %}" title="{{ title }}" {% if ( link=="hem" ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {% endif %}>
 						{{title}}
 					</a>
 				</li>
