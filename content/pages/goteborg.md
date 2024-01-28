@@ -6,7 +6,7 @@ type: page
 status: published
 ---
 
-<img src="data/poster1.jpeg" width=100%>
+<img src="data/poster1.jpeg" width=100% alt="Poster.">
 
 ## Hur tänker Göteborg Stad?
 
@@ -53,7 +53,8 @@ Med ett stadsdelsväxthus skapar vi möjlighet att öka på den lokala odlingen.
 Tillsammans kan vi öka stadens lokala matförsörjning samtidigt som vi skapar
 trygga sociala sammanhang.**
 
-#### Läs mer:
+#### Läs mer
+
 * <a href="https://goteborg.se/wps/wcm/connect/b628fcd8-b61f-4d9a-b917-979de0ec1d6a/Korr_N800_R_2022_3_Ett+h%C3%A5llbart+livsmedelsystem+ur+ett+cirkul%C3%A4rekonomiskt+perspektiv.pdf?MOD=AJPERES"
 target="_blank">Ett hållbart livsmedelssystem ur ett cirkulärekonomiskt
 perspektiv. (2022)</a>

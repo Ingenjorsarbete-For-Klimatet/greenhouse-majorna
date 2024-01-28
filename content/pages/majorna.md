@@ -6,7 +6,7 @@ type: page
 status: published
 ---
 
-<img src="data/poster1.jpeg" width=100%>
+<img src="data/poster1.jpeg" width=100% alt="Poster.">
 
 ## Vi börjar i Majorna
 
