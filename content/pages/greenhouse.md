@@ -7,7 +7,7 @@ status: published
 data:
 ---
 
-<img src="data/poster2.jpeg" width=100%>
+<img src="data/poster2.jpeg" width=100% alt="Poster.">
 
 ## Stadsdelsväxthus Majorna
 
