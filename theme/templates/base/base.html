@@ -26,7 +26,7 @@
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css" />
 	<link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css" />
-	<link rel="stylesheet" type="text/css" href="/greenhouse-majorna/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
 	<!-- End Load CSS -->
 	{% endblock head %}
 </head>
@@ -39,7 +39,7 @@
 			<li id="nav_{{ title }}" title="{{ title }}">
 				<a class="nav_{{ title }} nav_link {% if ( title== "greenhouse" and page_name=="greenhouse" ) or (
 					title=="kontakt" and page_name=="kontakt" ) or ( title=="om" and page_name=="om" ) %}activeMenu{%
-					endif %}" title="{{ title }}" {% if ( title==home ) %} href="/greenhouse-majorna/" {% else %} href="/greenhouse-majorna/{{link}}/" {%
+					endif %}" title="{{ title }}" {% if ( title==home ) %} href="/" {% else %} href="/{{link}}/" {%
 					endif %}>
 					{{title}}
 				</a>
@@ -65,7 +65,7 @@
 		</ul>
 		<ul>
 			<li>
-				<p>Uppdaterad {{build_date.strftime("%Y-%m-%d")}}</p>
+				<p>Uppdaterad {{ build_date }}</p>
 			</li>
 			<li>
 				<p>&copy; IFK</p>
