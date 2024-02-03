@@ -4,6 +4,7 @@ date: 2024-01-28
 author: Leif Strandh
 type: page
 status: published
+data:
 ---
 
 <img src="data/poster1.jpeg" width=100% alt="Poster.">

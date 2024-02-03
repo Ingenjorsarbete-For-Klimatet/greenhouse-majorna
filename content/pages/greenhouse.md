@@ -4,6 +4,7 @@ date: 2023-11-18
 author: Anders Nord
 type: index
 status: published
+data:
 ---
 
 <img src="data/poster2.jpeg" width=100%>
