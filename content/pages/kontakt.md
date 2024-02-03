@@ -8,7 +8,7 @@ status: published
 
 ## Kontakt
 
-Denna sida administreras och drivs av  [leif.strandh@kompostbutiken.com](mailto:leif.strandh@kompostbutiken.com)
+Denna sida administreras och drivs av [leif.strandh@kompostbutiken.com](mailto:leif.strandh@kompostbutiken.com)
 
 ### Hur tänker du?
 
@@ -43,5 +43,5 @@ Det är den lokala hyresgästföreningen som håller i odlingar på innergårdar
 dem eller din lokala miljövård. Bor du i en bostadsrätt är det styrelsen du ska prata
 med.
 
-Är ni flera som vill gå samman och odla på annan kommunal mark, kontakta *Stadsnära
-odling*, ett kommunalt odlingsprojekt som drivs av exploateringsförvaltningen.
+Är ni flera som vill gå samman och odla på annan kommunal mark, kontakta _Stadsnära
+odling_, ett kommunalt odlingsprojekt som drivs av exploateringsförvaltningen.

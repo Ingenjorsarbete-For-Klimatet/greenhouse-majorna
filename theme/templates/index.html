@@ -1,14 +1,12 @@
 {% extends "base/base.html" %}
 {% block content %}
-{% set pageName = "greenhouse" %}
-        <div id="page_{{pageName}}" class="page" {% if pageName !=pageName %}style="display: none" {% endif %}>
-            <div id="content_{{pageName}}" class="content {% if pageName == pageName %}ajaxHook{% endif %}">
-                <div id="ajax_content_{{pageName.lower()}}" class="ajax_content">
-                    <div class="entry-content-page hyphenate">
-                        {{ pages[pageName+".md"].content }}
-                    </div>
-                </div>
-            </div>
+{% set pageName = "hem" %}
+        <div id="page-{{pageName}}" class="page">
+            <ol id="post-list" class="ordered-list" data-list-length="{{ articles|count }}">
+                {% for article in articles %}
+                {% include 'base/archive_kernel.html' %}
+                {% endfor %}
+            </ol>
         </div>
 
 {% endblock content %}

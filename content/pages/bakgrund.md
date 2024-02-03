@@ -13,7 +13,7 @@ data:
 
 Arbetet för ett Stadsdelsväxthus i Majorna startade våren -23 efter att jag gått
 en cirkel om Göteborgs Stads miljö- och klimatplan. Målet för planen är att staden
-ska bli koldioxidneutral till 2030!  Vilket häftigt mål - vilken utmaning!
+ska bli koldioxidneutral till 2030! Vilket häftigt mål - vilken utmaning!
 Jag kände starkt att jag ville vara med det i arbetet -vilket kanske inte var så
 långsökt.
 Jag har ju jobbat med att kompostera matrester från Familjebostäders hyresgäster
@@ -28,4 +28,4 @@ odlade grönsaker, långväga ifrån. En hållbar samhällsutveckling som jag vi
 på med hjälp av alla som vill delta. Och här passar ett Stadsdelsväxthus som en smäck,
 där vi "odlar odlare" och grönsaker. Vi börjar i Majorna...
 
-Leif Strandh <a href="mailto:info@stadsdelsväxthus.se">info@stadsdelsväxthus.se</a>
+# Leif Strandh <a href="mailto:info@stadsdelsväxthus.se">info@stadsdelsväxthus.se</a>

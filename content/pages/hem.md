@@ -1,8 +1,8 @@
 ---
-title: Växthus i Majorna
+title: Stadsdelsväxthus Majorna
 date: 2023-11-18
 author: Anders Nord
-type: index
+type: hem
 status: published
 data:
 ---
@@ -15,5 +15,8 @@ Göteborgs stad har röstat för en ökad lokal matproduktion, med ambitionen at
 40% 2030. Ett sätt som staden identifierat för att nå dit är genom att bygga växthus
 tillgängliga för stadens medborgare.
 
-Vi börjar i Majorna!
-[Läs mer](om/)
+Skriv upp dig på kontaktlistan för att hålla dig uppdaterad!
+
+<p class="center">
+    <a class="button" href="/greenhouse-majorna/kontakt">Skriv upp mig!</a>
+</p>
