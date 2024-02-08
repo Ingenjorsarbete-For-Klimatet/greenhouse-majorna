@@ -28,4 +28,4 @@ odlade grönsaker, långväga ifrån. En hållbar samhällsutveckling som jag vi
 på med hjälp av alla som vill delta. Och här passar ett Stadsdelsväxthus som en smäck,
 där vi "odlar odlare" och grönsaker. Vi börjar i Majorna...
 
-# Leif Strandh <a href="mailto:info@stadsdelsväxthus.se">info@stadsdelsväxthus.se</a>
+## Leif Strandh <a href="mailto:info@stadsdelsväxthus.se">info@stadsdelsväxthus.se</a>
